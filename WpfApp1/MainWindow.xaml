@@ -1,0 +1,17 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="Лабораторная работа №25" Height="450" Width="800">
+    <Grid Margin="0,0,0,-6">
+        <TextBox Name="uri" HorizontalAlignment="Left" Height="34" Margin="30,25,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="625"/>
+        <Button Content="загрзить" HorizontalAlignment="Left" Height="34" Margin="670,25,0,0" VerticalAlignment="Top" Width="105" Click="Button_Click"/>
+        <TextBox x:Name="text" HorizontalAlignment="Center" Height="280" TextWrapping="Wrap"  VerticalAlignment="Top" Width="744" Margin="0,70,0,0"/>
+        <Button Content="задача1" HorizontalAlignment="Left" Height="51" Margin="28,365,0,0" VerticalAlignment="Top" Width="360" Click="Button_Click_3"/>
+        <Button Content="задача2" HorizontalAlignment="Left" Height="51" Margin="413,365,0,0" VerticalAlignment="Top" Width="360" />
+
+    </Grid>
+</Window>
